@@ -1,0 +1,120 @@
+:root {
+    --background-grey: #f5f5f5;
+    --contrast-red: #e02133;
+    --button-green: #26bb4c;
+    --hover-green: #11a120cc;
+    --emphasys-grey: #bbb;
+    --letter-black: #333;
+    --highlight-white: #ffffff;
+}
+
+body {
+    margin: 1rem;
+    padding: 0;
+    background-color: var(--background-grey);
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: "Exo", sans-serif;
+}
+
+/*Title styles*/
+
+header {
+    padding: 0 1rem;
+    background-color: var(--highlight-white);
+    display: flex;
+}
+
+header .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+header .title-img-container {
+    width: 50%;
+    height: auto;
+    background-image: url(https://i.postimg.cc/MTV8Rrdj/Load-Image-1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/*Option offer styles*/
+
+.option-container {
+    background-color: var(--highlight-white);
+    padding: 1rem;
+    margin: 1.5rem 0;
+}
+
+.option-title {
+    font-size: 2rem;
+    color: var(--contrast-red);
+    margin: 0;
+}
+
+.option-text {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 8px 0 15px;
+}
+
+.option-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+.option-list li:first-child button {
+    border: none;
+    border-radius: 0.2rem;
+    background-color: var(--button-green);
+    font-family: "Exo";
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--highlight-white);
+    width: 10rem;
+    height: 4rem;
+}
+
+.option-list li:first-child button:hover {
+    border: 0.2rem rgba(75, 255, 47, 0.714) solid;
+    border-radius: 0.2rem;
+    background-color: var(--hover-green);
+}
+
+.option-list li:last-child button {
+    border: none;
+    border-radius: 0.2rem;
+    background-color: var(--button-green);
+    font-family: "Exo";
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--highlight-white);
+    width: 10rem;
+    height: 4rem;
+}
+
+.option-list li:last-child button:hover {
+    border: 0.2rem rgba(75, 255, 47, 0.714) solid;
+    border-radius: 0.2rem;
+    background-color: var(--hover-green);
+}
+
+/*Casino section styles*/
+
+
+
+
+
+
+
+.result {
+    width: 100%;
+    height: 20px;
+    background-color: var(--button-green);
+}
