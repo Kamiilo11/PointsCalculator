@@ -107,9 +107,348 @@ header .title-img-container {
 
 /*Casino section styles*/
 
+.casino-container {
+    background-color: var(--highlight-white);
+    padding: 1rem;
+    margin: 1.5rem 0;
+}
 
+.casino-title {
+    font-size: 2rem;
+    color: var(--contrast-red);
+    margin: 0;
+}
 
+.ii-container {
+    width: 100%;
+    height: 4rem;
+    background-color: var(--highlight-white);
+    display: flex;
+    margin: 1rem 0;
+    border: 0.3rem var(--background-grey) solid;
+}
 
+.ii-container .casino-iib {
+    border: none;
+    background-color: var(--highlight-white);
+    font-family: "Exo";
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: left;
+    color: var(--letter-black);
+    width: 90%;
+    height: 100%;
+    padding: 0 0.5rem;
+}
+
+.ii-container .casino-iib:hover {
+    color: var(--contrast-red);
+}
+
+.ii-container .ii-icon {
+    width: 9%;
+    height: 100%;
+    background-image: url(https://i.postimg.cc/DmVMvsqt/images-removebg-preview.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-blend-mode: inherit;
+}
+
+.ii-container .ii-icon:hover {
+    color: var(--contrast-red);
+}
+
+.casino-container .casino-iih {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 8px 0 15px;
+}
+
+.casino-container .casino-iih .casino-ii-list {
+    padding: 0 0 0 3rem;
+    margin: 0.5rem 0 1rem 0;
+}
+
+.casino-form-title {
+    font-size: 1.7rem;
+    color: var(--contrast-red);
+    margin: 1rem 0 2rem 0;
+}
+
+.casino-container .casino-form-container {
+    width: 100%;
+    height: auto;
+    background-color: var(--highlight-white);
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.casino-container .casino-form-container .casino-input-container1 {
+    display: flex;
+    width: 30%;
+    height: auto;
+}
+
+.casino-container .casino-form-container .casino-input-container1 label {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--letter-black);
+    margin: auto 0;
+}
+
+.casino-container .casino-form-container .casino-input-container1 #slots {
+    margin: auto 0.5rem;
+}
+
+.casino-container .casino-form-container .casino-input-container2 {
+    display: flex;
+    width: 30%;
+    height: auto;
+}
+
+.casino-container .casino-form-container .casino-input-container2 label {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--letter-black);
+    margin: auto 0;
+}
+
+.casino-container .casino-form-container .casino-input-container2 #blackjack {
+    margin: auto 0.5rem;
+}
+
+.casino-container .casino-form-container .casino-input-container3 {
+    display: flex;
+    width: 30%;
+    height: auto;
+}
+
+.casino-container .casino-form-container .casino-input-container3 label {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--letter-black);
+    margin: auto 0;
+}
+
+.casino-container .casino-form-container .casino-input-container3 #roulette {
+    margin: auto 0.5rem;
+}
+
+/*Sports section styles*/
+
+.sports-container {
+    background-color: var(--highlight-white);
+    padding: 1rem;
+    margin: 1.5rem 0;
+}
+
+.sports-title {
+    font-size: 2rem;
+    color: var(--contrast-red);
+    margin: 0;
+}
+
+.sports-container .sports-iih {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 8px 0 15px;
+}
+
+.sports-container .sports-iih .sports-ii-list {
+    padding: 0 0 0 3rem;
+    margin: 0.5rem 0 1rem 0;
+}
+
+.sports-form-title {
+    font-size: 1.7rem;
+    color: var(--contrast-red);
+    margin: 1rem 0 2rem 0;
+}
+
+.sc-title {
+    font-size: 1.5rem;
+    color: var(--letter-black);
+    font-weight: 600;
+}
+
+.sports-container .single-bets-form-container {
+    width: 100%;
+    height: auto;
+    background-color: var(--highlight-white);
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    margin: 0 0 1rem 0;
+}
+
+.sports-container .single-bets-form-container .sports-single-input-cont1 {
+    background-color: var(--highlight-white);
+    width: 100%;
+    height: 25%;
+    display: flex;
+}
+
+.sports-container .single-bets-form-container .sports-single-input-cont1 #single-1 {
+    margin: auto 0.5rem;
+}
+
+.sports-container .single-bets-form-container .sports-single-input-cont1 label {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--letter-black);
+    margin: auto 0;
+}
+
+.sports-container .single-bets-form-container .sports-single-input-cont2 {
+    background-color: var(--highlight-white);
+    width: 100%;
+    height: 25%;
+    display: flex;
+}
+
+.sports-container .single-bets-form-container .sports-single-input-cont2 #single-2 {
+    margin: auto 0.5rem;
+}
+
+.sports-container .single-bets-form-container .sports-single-input-cont2 label {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--letter-black);
+    margin: auto 0;
+}
+
+.sports-container .single-bets-form-container .sports-single-input-cont3 {
+    background-color: var(--highlight-white);
+    width: 100%;
+    height: 25%;
+    display: flex;
+}
+
+.sports-container .single-bets-form-container .sports-single-input-cont3 #single-3 {
+    margin: auto 0.5rem;
+}
+
+.sports-container .single-bets-form-container .sports-single-input-cont3 label {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--letter-black);
+    margin: auto 0;
+}
+
+.sports-container .single-bets-form-container .sports-single-input-cont4 {
+    background-color: var(--highlight-white);
+    width: 100%;
+    height: 25%;
+    display: flex;
+}
+
+.sports-container .single-bets-form-container .sports-single-input-cont4 #single-4 {
+    margin: auto 0.5rem;
+}
+
+.sports-container .single-bets-form-container .sports-single-input-cont4 label {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--letter-black);
+    margin: auto 0;
+}
+
+.sports-container .combi-bets-form-container {
+    width: 100%;
+    height: auto;
+    background-color: var(--highlight-white);
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.sports-container .combi-bets-form-container .sports-combi-input-cont1 {
+    background-color: var(--highlight-white);
+    width: 100%;
+    height: 25%;
+    display: flex;
+}
+
+.sports-container .combi-bets-form-container .sports-combi-input-cont1 #single-1 {
+    margin: auto 0.5rem;
+}
+
+.sports-container .combi-bets-form-container .sports-combi-input-cont1 label {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--letter-black);
+    margin: auto 0;
+}
+
+.sports-container .combi-bets-form-container .sports-combi-input-cont2 {
+    background-color: var(--highlight-white);
+    width: 100%;
+    height: 25%;
+    display: flex;
+}
+
+.sports-container .combi-bets-form-container .sports-combi-input-cont2 #single-2 {
+    margin: auto 0.5rem;
+}
+
+.sports-container .combi-bets-form-container .sports-combi-input-cont2 label {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--letter-black);
+    margin: auto 0;
+}
+
+.sports-container .combi-bets-form-container .sports-combi-input-cont3 {
+    background-color: var(--highlight-white);
+    width: 100%;
+    height: 25%;
+    display: flex;
+}
+
+.sports-container .combi-bets-form-container .sports-combi-input-cont3 #single-3 {
+    margin: auto 0.5rem;
+}
+
+.sports-container .combi-bets-form-container .sports-combi-input-cont3 label {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--letter-black);
+    margin: auto 0;
+}
+
+.sports-container .combi-bets-form-container .sports-combi-input-cont4 {
+    background-color: var(--highlight-white);
+    width: 100%;
+    height: 25%;
+    display: flex;
+}
+
+.sports-container .combi-bets-form-container .sports-combi-input-cont4 #single-4 {
+    margin: auto 0.5rem;
+}
+
+.sports-container .combi-bets-form-container .sports-combi-input-cont4 label {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--letter-black);
+    margin: auto 0;
+}
+
+/*Input and putput section*/
+
+.in-out-container{
+    width: 100%;
+    height: auto;
+    background-color: var(--highlight-white);
+    margin: 2rem 0;
+    padding: 1rem;
+}
+
+.stake-input {
+
+}
 
 
 
