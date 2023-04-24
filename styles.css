@@ -301,10 +301,12 @@ header .title-img-container {
     margin: auto 0;
 }
 
+.big-cont-2 {
+    display: flex;
+}
+
 .sports-container .single-bets-form-container .sports-single-input-cont2 {
     background-color: var(--highlight-white);
-    width: 100%;
-    height: 25%;
     display: flex;
 }
 
@@ -312,12 +314,24 @@ header .title-img-container {
     margin: auto 0.5rem;
 }
 
-.sports-container .single-bets-form-container .sports-single-input-cont2 label {
+.sports-container .single-bets-form-container .sports-label-cont2-1 {
     font-size: 1.6rem;
     font-weight: 600;
     color: var(--letter-black);
     margin: auto 0;
+    
 }
+
+.sports-container .single-bets-form-container .sports-label-cont2-1 {
+    background-color: #e02133;
+    margin: 0;
+    justify-self: auto;
+}
+
+.sports-container .single-bets-form-container .sports-label-cont2-2 {
+    
+}
+
 
 .sports-container .single-bets-form-container .sports-single-input-cont3 {
     background-color: var(--highlight-white);
@@ -438,22 +452,61 @@ header .title-img-container {
 
 /*Input and putput section*/
 
-.in-out-container{
-    width: 100%;
-    height: auto;
+.in-out-container {
     background-color: var(--highlight-white);
     margin: 2rem 0;
     padding: 1rem;
 }
 
-.stake-input {
-
+.in-out-container h3 {
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+    color: var(--contrast-red);
 }
 
+.stake-input {
+    width: 100%;
+    display: flex;
+    margin: 0 0 1rem 0;
+}
 
+.stake-input label {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--letter-black);
+    margin: 0 1rem 0 0;
+}
+
+.stake-input #stake {
+    border: 0.1rem var(--emphasys-grey) solid;
+    border-radius: 0.3rem;
+    margin: 0 0.5rem 0 0;
+}
+
+.stake-input input:last-child {
+    border: none;
+    border-radius: 0.2rem;
+    background-color: var(--button-green);
+    font-family: "Exo";
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--highlight-white);
+}
+
+.points-output {
+    width: 100%;
+}
+
+.points-output label {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--letter-black);
+}
 
 .result {
     width: 100%;
-    height: 20px;
-    background-color: var(--button-green);
+    height: 3rem;
+    background-color: var(--background-grey);
+    border: 0.1rem var(--emphasys-grey) solid;
+    border-radius: 0.2rem;
 }
