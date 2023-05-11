@@ -302,7 +302,8 @@ header .title-img-container {
 }
 
 .big-cont-2 {
-    display: flex;
+    display: grid;
+    grid-template-columns: 2.5rem 1fr 1fr 1fr;
 }
 
 .sports-container .single-bets-form-container .sports-single-input-cont2 {
@@ -319,7 +320,8 @@ header .title-img-container {
     font-weight: 600;
     color: var(--letter-black);
     margin: auto 0;
-    
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
 
 .sports-container .single-bets-form-container .sports-label-cont2-1 {
@@ -329,7 +331,13 @@ header .title-img-container {
 }
 
 .sports-container .single-bets-form-container .sports-label-cont2-2 {
-    
+    grid-column-start: 4;
+    grid-column-end: 5;
+    align-self: center;
+    justify-self: end;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--letter-black);
 }
 
 
