@@ -301,6 +301,8 @@ header .title-img-container {
     margin: auto 0;
 }
 
+/**/
+
 .big-cont-2 {
     display: grid;
     grid-template-columns: 2.5rem 1fr 1fr 1fr;
@@ -458,7 +460,7 @@ header .title-img-container {
     margin: auto 0;
 }
 
-/*Input and putput section*/
+/*Input and output section*/
 
 .in-out-container {
     background-color: var(--highlight-white);
