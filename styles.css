@@ -264,13 +264,14 @@ header .title-img-container {
 .sports-form-title {
     font-size: 1.7rem;
     color: var(--contrast-red);
-    margin: 1rem 0 2rem 0;
+    margin: 1rem 0 1rem 0;
 }
 
 .sc-title {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: var(--letter-black);
     font-weight: 600;
+    margin: 2rem 0 1rem 0;
 }
 
 .sports-container .single-bets-form-container {
@@ -283,10 +284,15 @@ header .title-img-container {
     margin: 0 0 1rem 0;
 }
 
+/*Single bets section*/
+
+.big-cont-1 {
+    display: grid;
+    grid-template-columns: 2.5rem 1fr 1fr 1fr;
+}
+
 .sports-container .single-bets-form-container .sports-single-input-cont1 {
     background-color: var(--highlight-white);
-    width: 100%;
-    height: 25%;
     display: flex;
 }
 
@@ -294,14 +300,26 @@ header .title-img-container {
     margin: auto 0.5rem;
 }
 
-.sports-container .single-bets-form-container .sports-single-input-cont1 label {
+.sports-container .single-bets-form-container .sports-label-cont1-1 {
     font-size: 1.6rem;
     font-weight: 600;
     color: var(--letter-black);
     margin: auto 0;
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
 
-/**/
+.sports-container .single-bets-form-container .sports-label-cont1-2 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    align-self: center;
+    justify-self: end;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--letter-black);
+}
+
+/*muestra*/
 
 .big-cont-2 {
     display: grid;
@@ -326,12 +344,6 @@ header .title-img-container {
     grid-column-end: 4;
 }
 
-.sports-container .single-bets-form-container .sports-label-cont2-1 {
-    background-color: #e02133;
-    margin: 0;
-    justify-self: auto;
-}
-
 .sports-container .single-bets-form-container .sports-label-cont2-2 {
     grid-column-start: 4;
     grid-column-end: 5;
@@ -342,11 +354,15 @@ header .title-img-container {
     color: var(--letter-black);
 }
 
+/*fin muestra*/
+
+.big-cont-3 {
+    display: grid;
+    grid-template-columns: 2.5rem 1fr 1fr 1fr;
+}
 
 .sports-container .single-bets-form-container .sports-single-input-cont3 {
     background-color: var(--highlight-white);
-    width: 100%;
-    height: 25%;
     display: flex;
 }
 
@@ -354,17 +370,32 @@ header .title-img-container {
     margin: auto 0.5rem;
 }
 
-.sports-container .single-bets-form-container .sports-single-input-cont3 label {
+.sports-container .single-bets-form-container .sports-label-cont3-1 {
     font-size: 1.6rem;
     font-weight: 600;
     color: var(--letter-black);
     margin: auto 0;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.sports-container .single-bets-form-container .sports-label-cont3-2 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    align-self: center;
+    justify-self: end;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--letter-black);
+}
+
+.big-cont-4 {
+    display: grid;
+    grid-template-columns: 2.5rem 1fr 1fr 1fr;
 }
 
 .sports-container .single-bets-form-container .sports-single-input-cont4 {
     background-color: var(--highlight-white);
-    width: 100%;
-    height: 25%;
     display: flex;
 }
 
@@ -372,12 +403,26 @@ header .title-img-container {
     margin: auto 0.5rem;
 }
 
-.sports-container .single-bets-form-container .sports-single-input-cont4 label {
+.sports-container .single-bets-form-container .sports-label-cont4-1 {
     font-size: 1.6rem;
     font-weight: 600;
     color: var(--letter-black);
     margin: auto 0;
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
+
+.sports-container .single-bets-form-container .sports-label-cont4-2 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    align-self: center;
+    justify-self: end;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--letter-black);
+}
+
+/*Combi bet section*/
 
 .sports-container .combi-bets-form-container {
     width: 100%;
@@ -388,76 +433,136 @@ header .title-img-container {
     align-content: space-between;
 }
 
+.bigc-cont-1 {
+    display: grid;
+    grid-template-columns: 2.5rem 1fr 1fr 1fr;
+}
+
 .sports-container .combi-bets-form-container .sports-combi-input-cont1 {
     background-color: var(--highlight-white);
-    width: 100%;
-    height: 25%;
     display: flex;
 }
 
-.sports-container .combi-bets-form-container .sports-combi-input-cont1 #single-1 {
+.sports-container .combi-bets-form-container .sports-combi-input-cont1 #combi-1 {
     margin: auto 0.5rem;
 }
 
-.sports-container .combi-bets-form-container .sports-combi-input-cont1 label {
+.sports-container .combi-bets-form-container .combi-label-cont1-1 {
     font-size: 1.6rem;
     font-weight: 600;
     color: var(--letter-black);
     margin: auto 0;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.sports-container .combi-bets-form-container .combi-label-cont1-2 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    align-self: center;
+    justify-self: end;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--letter-black);
+}
+
+.bigc-cont-2 {
+    display: grid;
+    grid-template-columns: 2.5rem 1fr 1fr 1fr;
 }
 
 .sports-container .combi-bets-form-container .sports-combi-input-cont2 {
     background-color: var(--highlight-white);
-    width: 100%;
-    height: 25%;
     display: flex;
 }
 
-.sports-container .combi-bets-form-container .sports-combi-input-cont2 #single-2 {
+.sports-container .combi-bets-form-container .sports-combi-input-cont2 #combi-2 {
     margin: auto 0.5rem;
 }
 
-.sports-container .combi-bets-form-container .sports-combi-input-cont2 label {
+.sports-container .combi-bets-form-container .combi-label-cont2-1 {
     font-size: 1.6rem;
     font-weight: 600;
     color: var(--letter-black);
     margin: auto 0;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.sports-container .combi-bets-form-container .combi-label-cont2-2 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    align-self: center;
+    justify-self: end;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--letter-black);
+}
+
+.bigc-cont-3 {
+    display: grid;
+    grid-template-columns: 2.5rem 1fr 1fr 1fr;
 }
 
 .sports-container .combi-bets-form-container .sports-combi-input-cont3 {
     background-color: var(--highlight-white);
-    width: 100%;
-    height: 25%;
     display: flex;
 }
 
-.sports-container .combi-bets-form-container .sports-combi-input-cont3 #single-3 {
+.sports-container .combi-bets-form-container .sports-combi-input-cont3 #combi-3 {
     margin: auto 0.5rem;
 }
 
-.sports-container .combi-bets-form-container .sports-combi-input-cont3 label {
+.sports-container .combi-bets-form-container .combi-label-cont3-1 {
     font-size: 1.6rem;
     font-weight: 600;
     color: var(--letter-black);
     margin: auto 0;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.sports-container .combi-bets-form-container .combi-label-cont3-2 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    align-self: center;
+    justify-self: end;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--letter-black);
+}
+
+.bigc-cont-4 {
+    display: grid;
+    grid-template-columns: 2.5rem 1fr 1fr 1fr;
 }
 
 .sports-container .combi-bets-form-container .sports-combi-input-cont4 {
     background-color: var(--highlight-white);
-    width: 100%;
-    height: 25%;
     display: flex;
 }
 
-.sports-container .combi-bets-form-container .sports-combi-input-cont4 #single-4 {
+.sports-container .combi-bets-form-container .sports-combi-input-cont4 #combi-4 {
     margin: auto 0.5rem;
 }
 
-.sports-container .combi-bets-form-container .sports-combi-input-cont4 label {
+.sports-container .combi-bets-form-container .combi-label-cont4-1 {
     font-size: 1.6rem;
     font-weight: 600;
     color: var(--letter-black);
     margin: auto 0;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.sports-container .combi-bets-form-container .combi-label-cont4-2 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    align-self: center;
+    justify-self: end;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--letter-black);
 }
 
 /*Input and output section*/
@@ -491,6 +596,7 @@ header .title-img-container {
     border: 0.1rem var(--emphasys-grey) solid;
     border-radius: 0.3rem;
     margin: 0 0.5rem 0 0;
+    width: 50%;
 }
 
 .stake-input input:last-child {
@@ -514,7 +620,7 @@ header .title-img-container {
 }
 
 .result {
-    width: 100%;
+    width: 90%;
     height: 3rem;
     background-color: var(--background-grey);
     border: 0.1rem var(--emphasys-grey) solid;

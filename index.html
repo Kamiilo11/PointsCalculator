@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo:wght@300;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaQueries.css">
     <title>Club points calculator</title>
 </head>
 <body>
@@ -20,8 +21,8 @@
             <h2 class="option-title">Welcome to our club points calculator</h2>
             <p class="option-text">To begin please select one of our 2 options to start calculating:</p>
             <ul class="option-list">
-                <li><button>Casino</button></li>
-                <li><button>Sports</button></li>
+                <li><button class="casino-btn">Casino</button></li>
+                <li><button class="sports-btn">Sports</button></li>
             </ul>
         </section>
 
@@ -41,7 +42,7 @@
             <h3 class="casino-form-title">Please select one of the following options</h3>
             <form class="casino-form-container">
                 <div class="casino-input-container1">
-                    <input type="radio" name="casino-form" value="1000" id="slots" checked>
+                    <input type="radio" name="casino-form" value="1000" id="slots">
                     <label for="slots">Slots $1.000</label>
                 </div>
                 
@@ -70,18 +71,21 @@
                 </ul>
             </div>
 
-            <h3 class="sports-form-title">Please select one of the following options according to the type of bet the player made</h3>
-            <p class="sc-title">Single Bets</p>
+            <h3 class="sports-form-title">Please select only one of the following options according to the type of bet the player made</h3>
+            
+            <div class="ultra-big-cont"></div>
+            
             <form class="single-bets-form-container">
+                <p class="sc-title">Single Bets</p>
                 <div class="big-cont-1">
                     <div class="sports-single-input-cont1">
                         <input type="radio" name="sports-form" value="1000" id="single-1">
                     </div>
                     <div class="sports-label-cont1-1">
-                        <p for="single-1">Between 1,4 & 1,8</p>
+                        <label for="single-1">Between 1,4 & 1,8</label>
                     </div>
                     <div class="sports-label-cont1-2">
-                        <p for="single-1">$1000</p>
+                        <label for="single-1">$1000</label>
                     </div>
                 </div>
                 
@@ -90,57 +94,91 @@
                         <input type="radio" name="sports-form" value="700" id="single-2">
                     </div>
                     <div class="sports-label-cont2-1">
-                        <p for="single-2">Between 1,81 & 3,00</p>
+                        <label for="single-2">Between 1,81 & 3,00</label>
                     </div>
                     <div class="sports-label-cont2-2">
-                        <p for="single-2">$700</p>
+                        <label for="single-2">$700</label>
                     </div>
                 </div>
                 
                 <div class="big-cont-3">
                     <div class="sports-single-input-cont3">
-                        <input type="radio" name="sports-form" value="300" id="single-3">
-                        <div class="sports-label-cont3-1">
-                            <p for="single-3">Between 3,01 & 7,50</p>
-                        </div>
-                        <div class="sports-label-cont3-2">
-                            <p for="single-3">$300</p>
-                        </div>
+                        <input type="radio" name="sports-form" value="700" id="single-3">
+                    </div>
+                    <div class="sports-label-cont3-1">
+                        <label for="single-3">Between 3,01 & 7,50</label>
+                    </div>
+                    <div class="sports-label-cont3-2">
+                        <label for="single-3">$300</label>
                     </div>
                 </div>
-                
+
                 <div class="big-cont-4">
                     <div class="sports-single-input-cont4">
-                        <input type="radio" name="sports-form" value="100" id="single-4">
-                        <div class="sports-label-cont4-1">
-                            <p for="single-4">Equal or higer than 7,51</p>
-                        </div>
-                        <div class="sports-label-cont4-2">
-                            <p for="single-4">$100</p>
-                        </div>
+                        <input type="radio" name="sports-form" value="700" id="single-4">
+                    </div>
+                    <div class="sports-label-cont4-1">
+                        <label for="single-4">Equal or higer than 7,51</label>
+                    </div>
+                    <div class="sports-label-cont4-2">
+                        <label for="single-4">$100</label>
                     </div>
                 </div>
                 
             </form>
 
+            
             <form class="combi-bets-form-container">
-                <p class="sc-title">Combi bets hay que arreglar la disposicion de las cuotas y el valor de cada una</p>
-                <div class="sports-combi-input-cont1">
-                    <input type="radio" name="sports-form" value="1000" id="combi-1" checked>
-                    <label for="combi-1">Between 1,4 & 1,8 $400</label>
+                <p class="sc-title">Combi bets</p>
+                <div class="bigc-cont-1">
+                    <div class="sports-combi-input-cont1">
+                        <input type="radio" name="sports-form" value="400" id="combi-1">
+                    </div>
+                    <div class="combi-label-cont1-1">
+                        <label for="combi-1">Between 1,4 & 1,8</label>
+                    </div>
+                    <div class="combi-label-cont1-2">
+                        <label for="combi-1">$400</label>
+                    </div>
                 </div>
-                <div class="sports-combi-input-cont2">
-                    <input type="radio" name="sports-form" value="700" id="combi-2">
-                    <label for="combi-2">Between 1,81 & 3,00 $300</label>
+
+                <div class="bigc-cont-2">
+                    <div class="sports-combi-input-cont2">
+                        <input type="radio" name="sports-form" value="400" id="combi-2">
+                    </div>
+                    <div class="combi-label-cont2-1">
+                        <label for="combi-2">Between 1,81 & 3,00</label>
+                    </div>
+                    <div class="combi-label-cont2-2">
+                        <label for="combi-2">$300</label>
+                    </div>
                 </div>
-                <div class="sports-combi-input-cont3">
-                    <input type="radio" name="sports-form" value="300" id="combi-3">
-                    <label for="combi-3">Between 3,01 & 7,50 $200</label>
+
+                <div class="bigc-cont-3">
+                    <div class="sports-combi-input-cont3">
+                        <input type="radio" name="sports-form" value="400" id="combi-3">
+                    </div>
+                    <div class="combi-label-cont3-1">
+                        <label for="combi-3">Between 3,01 & 7,50</label>
+                    </div>
+                    <div class="combi-label-cont3-2">
+                        <label for="combi-3">$200</label>
+                    </div>
                 </div>
-                <div class="sports-combi-input-cont4">
-                    <input type="radio" name="sports-form" value="100" id="combi-4">
-                    <label for="combi-4">Equal or higer than 7,51 $100</label>
+
+                <div class="bigc-cont-4">
+                    <div class="sports-combi-input-cont4">
+                        <input type="radio" name="sports-form" value="400" id="combi-4">
+                    </div>
+                    <div class="combi-label-cont4-1">
+                        <label for="combi-4">Equal or higer than 7,51</label>
+                    </div>
+                    <div class="combi-label-cont4-2">
+                        <label for="combi-4">$100</label>
+                    </div>
                 </div>
+
+            </div>    
             </form>
         </section>
 
@@ -149,7 +187,7 @@
             <div class="stake-input">
                 <label for="stake">Total bet</label>
                 <input type="number" id="stake">
-                <input type="submit" value="Submit">
+                <input type="submit" value="Calculate">
             </div>
             <div class="points-output">
                 <label for="result">Your result is:</label>
@@ -157,5 +195,6 @@
             </div>
         </section>
     </main>
+    <script src="main.js"></script>
 </body>
 </html>

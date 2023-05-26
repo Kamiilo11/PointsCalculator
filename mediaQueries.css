@@ -1,0 +1,508 @@
+@media (min-width: 600px) {
+
+    header {
+        justify-content: space-between;
+    }
+
+    header .title-img-container {
+        width: 25%;
+        height: auto;
+        background-position: right;
+    }
+
+    .casino-container .casino-form-container {
+        width: 100%;
+        height: auto;
+        background-color: var(--highlight-white);
+        display: flex;
+        justify-content: space-evenly;
+        margin: auto;
+    }
+
+    .sc-title {
+        font-size: 1.6rem;
+        color: var(--letter-black);
+        font-weight: 600;
+        margin: 2rem 0;
+        text-align: center;
+        width: fit-content;
+    }
+
+    /*ultra big cont*/
+
+    .ultra-big-cont {
+        display: flex;
+        justify-content: space-around;
+    }
+
+/*Single bets section*/
+
+    .sports-container .single-bets-form-container {
+        width: 45%;
+        height: auto;
+        background-color: var(--highlight-white);
+        margin: 0 2%;
+        display: inline-block;
+    }
+
+    .big-cont-1 {
+        display: grid;
+        grid-template-columns: 2.5rem 1fr 9rem;
+        margin: 0.5rem 0;
+    }
+    
+    .sports-container .single-bets-form-container .sports-single-input-cont1 {
+        background-color: var(--highlight-white);
+        display: flex;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    
+    .sports-container .single-bets-form-container .sports-single-input-cont1 #single-1 {
+        margin: 0;
+    }
+    
+    .sports-container .single-bets-form-container .sports-label-cont1-1 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: var(--letter-black);
+        margin: auto 0;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    
+    .sports-container .single-bets-form-container .sports-label-cont1-2 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        align-self: center;
+        justify-self: start;
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: var(--letter-black);
+    }
+
+    .big-cont-2 {
+        display: grid;
+        grid-template-columns: 2.5rem 1fr 9rem;
+        margin: 0.5rem 0;
+    }
+    
+    .sports-container .single-bets-form-container .sports-single-input-cont2 {
+        background-color: var(--highlight-white);
+        display: flex;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    
+    .sports-container .single-bets-form-container .sports-single-input-cont2 #single-2 {
+        margin: 0;
+    }
+    
+    .sports-container .single-bets-form-container .sports-label-cont2-1 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: var(--letter-black);
+        margin: auto 0;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    
+    .sports-container .single-bets-form-container .sports-label-cont2-2 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        align-self: center;
+        justify-self: start;
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: var(--letter-black);
+    }
+
+    .big-cont-3 {
+        display: grid;
+        grid-template-columns: 2.5rem 1fr 9rem;
+        margin: 0.5rem 0;
+    }
+    
+    .sports-container .single-bets-form-container .sports-single-input-cont3 {
+        background-color: var(--highlight-white);
+        display: flex;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    
+    .sports-container .single-bets-form-container .sports-single-input-cont3 #single-3 {
+        margin: 0;
+    }
+    
+    .sports-container .single-bets-form-container .sports-label-cont3-1 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: var(--letter-black);
+        margin: auto 0;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    
+    .sports-container .single-bets-form-container .sports-label-cont3-2 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        align-self: center;
+        justify-self: start;
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: var(--letter-black);
+    }
+
+    .big-cont-4 {
+        display: grid;
+        grid-template-columns: 2.5rem 1fr 9rem;
+        margin: 0.5rem 0;
+    }
+    
+    .sports-container .single-bets-form-container .sports-single-input-cont4 {
+        background-color: var(--highlight-white);
+        display: flex;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    
+    .sports-container .single-bets-form-container .sports-single-input-cont4 #single-4 {
+        margin: 0;
+    }
+    
+    .sports-container .single-bets-form-container .sports-label-cont4-1 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: var(--letter-black);
+        margin: auto 0;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    
+    .sports-container .single-bets-form-container .sports-label-cont4-2 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        align-self: center;
+        justify-self: start;
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: var(--letter-black);
+    }
+
+/*Combi bet section*/
+
+    .sports-container .combi-bets-form-container {
+        width: 45%;
+        height: auto;
+        background-color: var(--highlight-white);
+        margin: 0 2%;
+        display: inline-block;
+    }
+
+    .bigc-cont-1 {
+        display: grid;
+        grid-template-columns: 2.5rem 1fr 9rem;
+        margin: 0.5rem 0;
+    }
+
+    .sports-container .combi-bets-form-container .sports-combi-input-cont1 {
+        background-color: var(--highlight-white);
+        display: flex;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .sports-container .combi-bets-form-container .sports-combi-input-cont1 #combi-1 {
+        margin: 0;
+    }
+
+    .sports-container .combi-bets-form-container .combi-label-cont1-1 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: var(--letter-black);
+        margin: auto 0;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .sports-container .combi-bets-form-container .combi-label-cont1-2 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        align-self: center;
+        justify-self: start;
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: var(--letter-black);
+    }
+
+    .bigc-cont-2 {
+        display: grid;
+        grid-template-columns: 2.5rem 1fr 9rem;
+        margin: 0.5rem 0;
+    }
+
+    .sports-container .combi-bets-form-container .sports-combi-input-cont2 {
+        background-color: var(--highlight-white);
+        display: flex;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .sports-container .combi-bets-form-container .sports-combi-input-cont2 #combi-2 {
+        margin: 0;
+    }
+
+    .sports-container .combi-bets-form-container .combi-label-cont2-1 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: var(--letter-black);
+        margin: auto 0;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .sports-container .combi-bets-form-container .combi-label-cont2-2 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        align-self: center;
+        justify-self: start;
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: var(--letter-black);
+    }
+
+    .bigc-cont-3 {
+        display: grid;
+        grid-template-columns: 2.5rem 1fr 9rem;
+        margin: 0.5rem 0;
+    }
+
+    .sports-container .combi-bets-form-container .sports-combi-input-cont3 {
+        background-color: var(--highlight-white);
+        display: flex;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .sports-container .combi-bets-form-container .sports-combi-input-cont3 #combi-3 {
+        margin: 0;
+    }
+
+    .sports-container .combi-bets-form-container .combi-label-cont3-1 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: var(--letter-black);
+        margin: auto 0;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .sports-container .combi-bets-form-container .combi-label-cont3-2 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        align-self: center;
+        justify-self: start;
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: var(--letter-black);
+    }
+
+    .bigc-cont-4 {
+        display: grid;
+        grid-template-columns: 2.5rem 1fr 9rem;
+        margin: 0.5rem 0;
+    }
+
+    .sports-container .combi-bets-form-container .sports-combi-input-cont4 {
+        background-color: var(--highlight-white);
+        display: flex;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .sports-container .combi-bets-form-container .sports-combi-input-cont4 #combi-4 {
+        margin: 0;
+    }
+
+    .sports-container .combi-bets-form-container .combi-label-cont4-1 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: var(--letter-black);
+        margin: auto 0;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .sports-container .combi-bets-form-container .combi-label-cont4-2 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        align-self: center;
+        justify-self: start;
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: var(--letter-black);
+    }
+
+
+    /*Input and output section*/
+
+    .in-out-container {
+        background-color: var(--highlight-white);
+        margin: 2rem 0;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .in-out-container h3 {
+        margin: 0 0 1rem 0;
+        font-size: 1.5rem;
+        color: var(--contrast-red);
+        width: 20%;
+    }
+    
+    .stake-input {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 0 0 1rem 0;
+    }
+    
+    .stake-input label {
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: var(--letter-black);
+        margin: 0 1rem 0 0;
+        align-self: center;
+    }
+    
+    .stake-input #stake {
+        border: 0.1rem var(--emphasys-grey) solid;
+        border-radius: 0.3rem;
+        margin: 0 0.5rem 0 0;
+        height: 30%;
+        align-self: center;
+    }
+    
+    .stake-input input:last-child {
+        border: none;
+        border-radius: 0.2rem;
+        background-color: var(--button-green);
+        font-family: "Exo";
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: var(--highlight-white);
+        height: 32%;
+        align-self: center;
+    }    
+
+    .points-output {
+        width: 30%;
+    }
+    
+    .points-output label {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: var(--letter-black);
+        margin: 0;
+    }
+    
+    .result {
+        width: 90%;
+        height: 3rem;
+        background-color: var(--background-grey);
+        border: 0.1rem var(--emphasys-grey) solid;
+        border-radius: 0.2rem;
+    }
+
+}
+
+@media (min-width: 750px) {
+    body {
+        max-width: 90rem;
+        height: auto;
+        margin: auto;
+    }
+
+    header {
+        justify-content: space-between;
+    }
+
+    header .title-img-container {
+        width: 15%;
+        height: auto;
+        background-position: right;
+    }
+
+    /*Input and output section*/
+
+    .in-out-container {
+        background-color: var(--highlight-white);
+        margin: 2rem 0;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .in-out-container h3 {
+        margin: 0 0 1rem 0;
+        font-size: 1.5rem;
+        color: var(--contrast-red);
+        width: 20%;
+    }
+    
+    .stake-input {
+        width: 40%;
+        display: flex;
+        margin: 0 0 1rem 0;
+    }
+    
+    .stake-input label {
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: var(--letter-black);
+        margin: 0 1rem 0 0;
+        align-self: center;
+    }
+    
+    .stake-input #stake {
+        border: 0.1rem var(--emphasys-grey) solid;
+        border-radius: 0.3rem;
+        margin: 0 0.5rem 0 0;
+        height: 30%;
+        align-self: center;
+    }
+    
+    .stake-input input:last-child {
+        border: none;
+        border-radius: 0.2rem;
+        background-color: var(--button-green);
+        font-family: "Exo";
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: var(--highlight-white);
+        height: 32%;
+        align-self: center;
+    }    
+
+    .points-output {
+        width: 30%;
+    }
+    
+    .points-output label {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: var(--letter-black);
+        margin: 0;
+    }
+    
+    .result {
+        width: 90%;
+        height: 3rem;
+        background-color: var(--background-grey);
+        border: 0.1rem var(--emphasys-grey) solid;
+        border-radius: 0.2rem;
+    }
+
+}
