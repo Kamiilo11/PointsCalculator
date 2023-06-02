@@ -111,6 +111,7 @@ header .title-img-container {
     background-color: var(--highlight-white);
     padding: 1rem;
     margin: 1.5rem 0;
+    display: none;
 }
 
 .casino-title {
@@ -163,6 +164,7 @@ header .title-img-container {
     font-size: 1.5rem;
     font-weight: 500;
     margin: 8px 0 15px;
+    display: none;
 }
 
 .casino-container .casino-iih .casino-ii-list {
@@ -242,6 +244,7 @@ header .title-img-container {
     background-color: var(--highlight-white);
     padding: 1rem;
     margin: 1.5rem 0;
+    display: none;
 }
 
 .sports-title {
@@ -254,6 +257,7 @@ header .title-img-container {
     font-size: 1.5rem;
     font-weight: 500;
     margin: 8px 0 15px;
+    display: none;
 }
 
 .sports-container .sports-iih .sports-ii-list {
