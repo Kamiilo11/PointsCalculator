@@ -15,8 +15,9 @@ const sportsDivSection = document.querySelector(".sports-container");
 const sportsFormSportBtn = document.querySelector("#sports-iib");
 const sportsFormSport = document.querySelector(".sports-iih");
 
-const submitBtn = document.querySelector("#submit-btn");
+
 const submitField = document.querySelector("#stake");
+const submitBtn = document.querySelector("#submit-btn");
 
 
 

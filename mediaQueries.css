@@ -505,4 +505,16 @@
         border-radius: 0.2rem;
     }
 
+    .sc-title {
+        border: none;
+        border-radius: 0.2rem;
+        background-color: var(--button-green);
+        font-family: "Exo";
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: var(--highlight-white);
+        width: 10rem;
+    height: 4rem;
+    margin: 1rem 0;
+    }
 }
