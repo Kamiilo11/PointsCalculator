@@ -10,10 +10,20 @@ const casinoRouletteInput = document.querySelector("#roulette");
 
 
 
+
+
 const sportsSectionBtn = document.querySelector(".sports-btn");
 const sportsDivSection = document.querySelector(".sports-container");
 const sportsFormSportBtn = document.querySelector("#sports-iib");
 const sportsFormSport = document.querySelector(".sports-iih");
+
+const sportsOptionsSingle = document.querySelector('.single-bets-form-container');
+const sportsBtnSelecSingle = document.querySelector('.sc-title');
+
+const sportsOptionsCombi = document.querySelector('.combi-bets-form-container');
+const sportsBtnSelecCombi = document.querySelector('.sc-title2');
+
+
 
 
 const submitField = document.querySelector("#stake");
@@ -70,5 +80,40 @@ sportsFormSportBtn.addEventListener("click", () => {
     } else if (sportsFormSport.style.display == "block") {
         sportsFormSport.style.display = "";
         console.log(`section ${sportsFormSport.style.display}`);
+    }
+});
+
+sportsBtnSelecSingle.addEventListener('click', () => {
+    if (sportsOptionsSingle.style.display == "" || sportsOptionsCombi.style.display == "block") {
+        sportsOptionsSingle.style.display = "block";
+        sportsOptionsCombi.style.display = "";
+        //console.log(`single ${sportsOptionsSingle.style.display}`);
+        //console.log(`combi ${sportsOptionsCombi.style.display}`);
+    } else if (sportsOptionsSingle.style.display == "block") {
+        sportsOptionsSingle.style.display = "";
+        //console.log(sportsOptionsSingle.style.display);
+    }
+});
+
+sportsBtnSelecSingle.addEventListener('click', () => { //hay que arreglar este if
+    if (sportsBtnSelecSingle.style.display == "" || sportsOptionsCombi.style.display == "block") {
+        sportsBtnSelecCombi.style.display = 'none';
+        sportsBtnSelecSingle.style.display = 'block';
+    } else if (sportsOptionsSingle.style.display == "block") {
+        sportsBtnSelecCombi.style.display = 'block';
+    }
+    console.log(sportsBtnSelecSingle.style.display);
+    console.log(sportsBtnSelecCombi.style.display);
+});
+
+sportsBtnSelecCombi.addEventListener('click', () => {
+    if (sportsOptionsCombi.style.display == "" || sportsOptionsSingle.style.display == "block") {
+        sportsOptionsCombi.style.display = "block";
+        sportsOptionsSingle.style.display = "";
+        console.log(`Combi ${sportsOptionsCombi.style.display}`);
+        console.log(`Single ${sportsOptionsSingle.style.display}`);
+    } else if (sportsOptionsCombi.style.display == "block") {
+        sportsOptionsCombi.style.display = "";
+        console.log(sportsOptionsCombi.style.display);
     }
 });

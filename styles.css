@@ -271,6 +271,11 @@ header .title-img-container {
     margin: 1rem 0 1rem 0;
 }
 
+.btn-selection {
+    display: flex;
+    justify-content: space-around;
+}
+
 .sc-title {
     border: none;
     border-radius: 0.2rem;
@@ -282,6 +287,7 @@ header .title-img-container {
     width: 10rem;
     height: 4rem;
     margin: 1rem 0;
+    display: block;
 }
 
 .sc-title:hover {
@@ -301,6 +307,7 @@ header .title-img-container {
     width: 10rem;
     height: 4rem;
     margin: 1rem 0;
+    display: block;
 }
 
 .sc-title2:hover {
@@ -317,6 +324,7 @@ header .title-img-container {
     flex-direction: column;
     align-content: space-between;
     margin: 0 0 1rem 0;
+    display: none;
 }
 
 /*Single bets section*/
@@ -466,6 +474,7 @@ header .title-img-container {
     display: flex;
     flex-direction: column;
     align-content: space-between;
+    display: none;
 }
 
 .bigc-cont-1 {
