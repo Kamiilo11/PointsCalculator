@@ -322,7 +322,7 @@ header .title-img-container {
 /*Single bets section*/
 
 .big-cont-1 {
-    display: grid;
+    display: none;
     grid-template-columns: 2.5rem 1fr 1fr 1fr;
 }
 
@@ -357,7 +357,7 @@ header .title-img-container {
 /*muestra*/
 
 .big-cont-2 {
-    display: grid;
+    display: none;
     grid-template-columns: 2.5rem 1fr 1fr 1fr;
 }
 
@@ -392,7 +392,7 @@ header .title-img-container {
 /*fin muestra*/
 
 .big-cont-3 {
-    display: grid;
+    display: none;
     grid-template-columns: 2.5rem 1fr 1fr 1fr;
 }
 
@@ -425,7 +425,7 @@ header .title-img-container {
 }
 
 .big-cont-4 {
-    display: grid;
+    display: none;
     grid-template-columns: 2.5rem 1fr 1fr 1fr;
 }
 
@@ -469,7 +469,7 @@ header .title-img-container {
 }
 
 .bigc-cont-1 {
-    display: grid;
+    display: none;
     grid-template-columns: 2.5rem 1fr 1fr 1fr;
 }
 
@@ -502,7 +502,7 @@ header .title-img-container {
 }
 
 .bigc-cont-2 {
-    display: grid;
+    display: none;
     grid-template-columns: 2.5rem 1fr 1fr 1fr;
 }
 
@@ -535,7 +535,7 @@ header .title-img-container {
 }
 
 .bigc-cont-3 {
-    display: grid;
+    display: none;
     grid-template-columns: 2.5rem 1fr 1fr 1fr;
 }
 
@@ -568,7 +568,7 @@ header .title-img-container {
 }
 
 .bigc-cont-4 {
-    display: grid;
+    display: none;
     grid-template-columns: 2.5rem 1fr 1fr 1fr;
 }
 
